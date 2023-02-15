@@ -74,6 +74,8 @@ Here are the tasks related to visit keyword:
 
 By inputting ```mark {index}``` will mark the task at the position as done. 
 
+Command: ```mark 1```   
+
 Example: 
 
 Assuming this is the list of tasks;
@@ -83,10 +85,8 @@ Assuming this is the list of tasks;
 2.[T][ ] Watch TV 
 3.[T][ ] Visit America 
 
-
-Command: ```mark 1```  
-
-```Nice! I've marked this task as done: 
+```
+Nice! I've marked this task as done: 
 [T][X] visit park 
 ``` 
 
