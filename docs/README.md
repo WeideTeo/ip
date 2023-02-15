@@ -29,7 +29,7 @@ The task must be one of these type, ```Todo```, ```Event``` or ```Deadline```.
 - ```Deadline```: ```deadline {description} /by {time}```. For example, ```deadline assignment /by 2023-02-04``` will add a new ```Deadline``` with descripition ```assignemnt``` at the date specified as ```Feb 24 2023```.  
 
 The supported format for the deadline are as followed: 
-- 
+
 
 Else, the date cannot be recognised.
 
