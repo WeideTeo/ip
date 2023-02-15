@@ -43,7 +43,7 @@ Command: ```delete 2```
 
 ```
 Noted, I've removed this task: 
-[T][ ]: Visit park
+[T][ ] Visit park
 ```
 
 ### ```Find``` - Search relevant task in list 
