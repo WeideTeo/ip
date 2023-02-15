@@ -33,7 +33,7 @@ The supported format for the deadline are as followed:
 
 Else, the date cannot be recognised.
 
-
+-
 ### ```delete``` - Delete a specific task 
 By entering the delete command followed by the index, Duke will delete the task.
 
