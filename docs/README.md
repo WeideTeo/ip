@@ -6,7 +6,7 @@ Duke is a task management system that helps users to keep track their tasks. The
 ## Features - Accept Upper and Lower Case for commands
 Duke commands ignore upper and lower case. Hence, the command will work as long as the word match. 
 
-## ```list``` - List all the tasks out 
+### ```list``` - List all the tasks out 
 
 By entering the ```list``` command, Duke will print out the list of tasks provided previously, including both done and undone tasks.  
 
@@ -21,7 +21,7 @@ Here are the tasks in your list:
 3. [E][ ]: Project Meeting (at: Tue 1-2pm) 
 ```
 
-## ```add``` - Add a new task 
+### ```add``` - Add a new task 
 
 The task must be one of these type, ```Todo```, ```Event``` or ```Deadline```. 
 - ```Todo```: ```todo {description}```. E.g. ```todo visit park``` will add a new ```Todo``` task with description of ```visit park``` in the list. 
@@ -34,7 +34,7 @@ The supported format for the deadline are as followed:
 Else, the date cannot be recognised.
 
 
-## ```delete``` - Delete a specific task 
+### ```delete``` - Delete a specific task 
 By entering the delete command followed by the index, Duke will delete the task.
 
 Example 
@@ -46,7 +46,7 @@ Noted, I've removed this task:
 [T][ ]: Visit park
 ```
 
-## ```Find - Search relevant task in list 
+### ```Find``` - Search relevant task in list 
 
 ```find {argument}``` will show all the tasks with ```{arugment}``` included in the task description. 
 
@@ -70,9 +70,9 @@ Here are the tasks related to visit keyword:
 2. [T][ ] visit america
 ``` 
 
-## ```mark``` - Mark the task as done  
+### ```mark``` - Mark the task as done  
 
-By inputting ```mark {index} ``` will mark the task at the position as done. 
+By inputting ```mark {index}``` will mark the task at the position as done. 
 
 Example: 
 
@@ -90,7 +90,7 @@ Command: ```mark 1```
 [T][X] visit park 
 ``` 
 
-## ```unmark``` - Mark the task as not done 
+### ```unmark``` - Mark the task as not done 
 
 By inputting ```unmark {index} ``` will unmark the task at the position as done. 
 
@@ -110,8 +110,9 @@ Command: ```unmark 2```
 [T][ ] Watch TV 
 ``` 
 
-### ```Bye``` - Terminate the program and all tasks in the list will be stored in the duke.txt file in the ```userData``` folder.  
+### ```Bye``` - To terminate the program 
 
+Terminate the program and all tasks in the list will be stored in the duke.txt file in the ```userData``` folder.  
 Example 
 
 Command: ```bye``` 
