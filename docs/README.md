@@ -114,7 +114,7 @@ Nice! I've marked this task as not done yet:
 [T][ ] Watch TV 
 ``` 
 
-### ```Bye``` - To terminate the program 
+### ```bye``` - To terminate the program 
 
 Terminate the program and all tasks in the list will be stored in the duke.txt file in the ```userData``` folder.  
 Example 
