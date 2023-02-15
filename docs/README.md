@@ -94,7 +94,9 @@ Command: ```mark 1```
 
 By inputting ```unmark {index} ``` will unmark the task at the position as done. 
 
-Example: 
+Example:  
+
+Command: ```unmark 2```   
 
 Assuming this is the list of tasks;
 
@@ -104,9 +106,8 @@ Assuming this is the list of tasks;
 3.[T][ ] Visit America 
 ```
 
-Command: ```unmark 2```  
-
-```Nice! I've marked this task as not done yet: 
+```
+Nice! I've marked this task as not done yet: 
 [T][ ] Watch TV 
 ``` 
 
