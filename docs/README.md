@@ -78,7 +78,7 @@ Command: ```mark 1```
 
 Example: 
 
-Assuming this is the list of tasks;
+Assuming this is the list of tasks:
 
 ``` 
 1.[T][ ] visit park 
@@ -86,7 +86,7 @@ Assuming this is the list of tasks;
 3.[T][ ] Visit America  
 ```  
 
-Output
+The following command will print the following: 
 ```
 Nice! I've marked this task as done: 
 [T][X] visit park 
@@ -100,7 +100,7 @@ Example:
 
 Command: ```unmark 2```   
 
-Assuming this is the list of tasks;
+Assuming this is the list of tasks:
 
 ``` 
 1.[T][ ] visit park 
@@ -108,7 +108,7 @@ Assuming this is the list of tasks;
 3.[T][ ] Visit America 
 ```
 
-Output 
+The following command will print the following: 
 ```
 Nice! I've marked this task as not done yet: 
 [T][ ] Watch TV 
