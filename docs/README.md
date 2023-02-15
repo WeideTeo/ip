@@ -33,8 +33,8 @@ The supported format for the deadline are as followed:
 
 Else, the date cannot be recognised.
 
--
-### ```delete``` - Delete a specific task 
+
+## ```delete``` - Delete a specific task 
 By entering the delete command followed by the index, Duke will delete the task.
 
 Example 
@@ -46,7 +46,7 @@ Noted, I've removed this task:
 [T][ ]: Visit park
 ```
 
-### ```Find - Search relevant task in list 
+## ```Find - Search relevant task in list 
 
 ```find {argument}``` will show all the tasks with ```{arugment}``` included in the task description. 
 
@@ -70,7 +70,7 @@ Here are the tasks related to visit keyword:
 2. [T][ ] visit america
 ``` 
 
-### ```mark``` - Mark the task as done  
+## ```mark``` - Mark the task as done  
 
 By inputting ```mark {index} ``` will mark the task at the position as done. 
 
@@ -88,8 +88,9 @@ Command: ```mark 1```
 
 ```Nice! I've marked this task as done: 
 [T][X] visit park 
+``` 
 
-### ```unmark``` - Mark the task as not done 
+## ```unmark``` - Mark the task as not done 
 
 By inputting ```unmark {index} ``` will unmark the task at the position as done. 
 
@@ -101,18 +102,20 @@ Assuming this is the list of tasks;
 1.[T][ ] visit park 
 2.[T][X] Watch TV 
 3.[T][ ] Visit America 
-
+```
 
 Command: ```unmark 2```  
 
 ```Nice! I've marked this task as not done yet: 
 [T][ ] Watch TV 
+``` 
 
 ### ```Bye``` - Terminate the program and all tasks in the list will be stored in the duke.txt file in the ```userData``` folder.  
 
 Example 
 
-Command: bye 
+Command: ```bye``` 
+
 ``` 
 The Duke program will terminate.
 ```
