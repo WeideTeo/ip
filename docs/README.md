@@ -84,8 +84,6 @@ Assuming this is the list of tasks;
 1.[T][ ] visit park 
 2.[T][ ] Watch TV 
 3.[T][ ] Visit America 
-
-```
 Nice! I've marked this task as done: 
 [T][X] visit park 
 ``` 
