@@ -116,7 +116,7 @@ Nice! I've marked this task as not done yet:
 
 ### ```bye``` - To terminate the program 
 
-Terminate the program and all tasks in the list will be stored in the duke.txt file in the ```userData``` folder.  
+Terminate the program and all tasks in the list will be stored in the ```duke.txt``` file in the ```userData``` folder.  
 Example 
 
 Command: ```bye``` 
