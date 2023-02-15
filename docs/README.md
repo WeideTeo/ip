@@ -6,18 +6,20 @@ Duke is a task management system that helps users to keep track their tasks. The
 ## Features - Accept Upper and Lower Case for commands
 Duke commands ignore upper and lower case. Hence, the command will work as long as the word match. 
 
-## list - List all the tasks out 
+## ```list``` - List all the tasks out 
 
-By entering the list command, Duke will print out the list of tasks provided previously, including both done and undone tasks.  
+By entering the ```list``` command, Duke will print out the list of tasks provided previously, including both done and undone tasks.  
 
 Example 
 
-Command: list 
+Command ```list``` 
 
+```
 Here are the tasks in your list: 
 1. [T][ ]: visit park
 2. [D][X]: Submit assignment (by: Monday) 
 3. [E][ ]: Project Meeting (at: Tue 1-2pm) 
+```
 
 #add - Add a new task 
 
