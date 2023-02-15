@@ -1,20 +1,47 @@
 # User Guide
 
 ## Features 
+Duke is a task management system that helps users to keep track their tasks. The type of tasks that Duke can keep track are todo, event, or deadline. Duke is designed to provide users with the ability to add, delete, and mark tasks as done or not done. In addition, Duke will save a record of the tasks automatically and the tasks will be shown even when it is opened the next time. 
 
-### Feature-ABC
+## Features - Accept Upper and Lower Case for commands
+Duke commands ignore upper and lower case. Hence, the command will work as long as the word match. 
 
-Description of the feature.
+## list - List all the tasks out 
 
-### Feature-XYZ
+By entering the list command, Duke will print out the list of tasks provided previously, including both done and undone tasks.  
 
-Description of the feature.
+Example 
 
-## Usage
+Command: list 
 
-### `Keyword` - Describe action
+Here are the tasks in your list: 
+1. [T][ ]: visit park
+2. [D][X]: Submit assignment (by: Monday) 
+3. [E][ ]: Project Meeting (at: Tue 1-2pm) 
 
-Describe the action and its outcome.
+#add - Add a new task 
+
+The task must be one of these type, Todo, Event or Deadline. 
+- Todo: todo {description}. E.g. todo visit park will add a new Todo task with description of visit park in the list. 
+- Event: event {descrpition} /at {time}. For example, event meeting /at 2023-02-24 will add a new Event with description meeting at the date specificed as Feb 24 2023; 
+- Deadline: deadline {description} /by {time}. For example, deadline assignment /by 2023-02-04 will add a new Deadline with descripition assignemnt at the date specified as Feb 24 2023.  
+
+The supported format for the deadline are as followed: 
+- 
+
+Else, the date cannot be recognised.
+
+
+### `delete` - Delete a specific task 
+By entering the delete command followed by the index, Duke will delete the task. 
+
+Example 
+
+Command: delete 2 
+
+Noted, I've removed this task: 
+[T][ ]: Visit park
+
 
 Example of usage: 
 
