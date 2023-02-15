@@ -35,7 +35,7 @@ Else, the date cannot be recognised.
 
 
 ### ```delete``` - Delete a specific task 
-By entering the delete command followed by the index, Duke will delete the task.
+By entering, the ```delete``` command followed by the ```index```, Duke will delete the task.
 
 Example 
 
@@ -72,7 +72,7 @@ Here are the tasks related to visit keyword:
 
 ### ```mark``` - Mark the task as done  
 
-By inputting ```mark {index}``` will mark the task at the position as done. 
+By entering, ```mark {index}``` will mark the task at the position as done. 
 
 Command: ```mark 1```   
 
@@ -94,7 +94,7 @@ Nice! I've marked this task as done:
 
 ### ```unmark``` - Mark the task as not done 
 
-By inputting ```unmark {index} ``` will unmark the task at the position as done. 
+By entering, ```unmark {index}``` will unmark the task at the position as done. 
 
 Example:  
 
