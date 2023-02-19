@@ -140,6 +140,7 @@ The following command will print the following:
 The following list are the tasks before the given deadline 2023-02-18: 
 1.[D][X] Watch TV (by: 2023-02-12)
 2.[D][ ] Visit America (byL 2023-02-17) 
+```
 
 ### ```bye``` - To terminate the program 
 
