@@ -3,7 +3,7 @@
 ## Features 
 Duke is a task management system that helps users to keep track their tasks. The type of tasks that Duke can keep track are todo, event, or deadline. Duke is designed to provide users with the ability to add, delete, and mark tasks as done or not done. In addition, Duke will save a record of the tasks automatically and the tasks will be shown even when it is opened the next time. 
 
-## Features - Accept Upper and Lower Case for commands
+## Features - Case Insensitive 
 Duke commands ignore upper and lower case. Hence, the command will work as long as the word match. 
 
 ### ```list``` - List all the tasks out 
@@ -28,10 +28,14 @@ The task must be one of these type, ```Todo```, ```Event``` or ```Deadline```.
 - ```Event```: ```event {descrpition} /at {time}```. For example, ```event meeting /at 2023-02-24``` will add a new ```Event``` with description ```meeting``` at the date specificed as ```Feb 24 2023```; 
 - ```Deadline```: ```deadline {description} /by {time}```. For example, ```deadline assignment /by 2023-02-04``` will add a new ```Deadline``` with descripition ```assignemnt``` at the date specified as ```Feb 24 2023```.  
 
-The supported format for the deadline are as followed: 
-
-
-Else, the date cannot be recognised.
+The supported format for the deadline are as followed:  
+```
+deadline {description} /by {Day}  
+deadline {description} /by {YYYY-MM-DD} 
+deadline {description} /by {YYYY/MM/DD} 
+```
+Else, the date cannot be recognised. 
+Note: Day refers to Monday, Tuesday, Wednesday and etc. 
 
 
 ### ```delete``` - Delete a specific task 
@@ -112,7 +116,30 @@ The following command will print the following:
 ```
 Nice! I've marked this task as not done yet: 
 [T][ ] Watch TV 
+```  
+
+
+### ```by``` - Mark the task as not done 
+
+By entering, ```unmark/ {YYYY-MM-DD}``` will show all deadline tasks before this given deadline. 
+
+Example:  
+
+Command: ```by /2023-02-18```   
+
+Assuming this is the list of tasks:
+
 ``` 
+1.[D][ ] visit park (by: 2023-02-20)
+2.[D][X] Watch TV (by: 2023-02-12)
+3.[D][ ] Visit America (byL 2023-02-17)
+```
+
+The following command will print the following: 
+```
+The following list are the tasks before the given deadline 2023-02-18: 
+1.[D][X] Watch TV (by: 2023-02-12)
+2.[D][ ] Visit America (byL 2023-02-17) 
 
 ### ```bye``` - To terminate the program 
 
